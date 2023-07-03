@@ -1,4 +1,5 @@
 def main(a):
+    ans=(a==7)
     """
     Check the logic "The variable 'a' is equal 7"
     Args:
@@ -7,4 +8,5 @@ def main(a):
         bool
     """
     # Write your code here
-    return 
+    return ans
+print(main(7))
