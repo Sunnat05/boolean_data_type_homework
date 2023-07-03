@@ -1,4 +1,5 @@
 def main(a):
+    b=a%2==0
     """
     Check the logic "The variable "a" is an even number"
     Args:
@@ -7,4 +8,5 @@ def main(a):
         bool
     """
     # Write your code here
-    return 
+    return b
+print(main(6))
