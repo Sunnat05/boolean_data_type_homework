@@ -7,5 +7,5 @@ def main(a):
         bool
     """
     # Write your code here
-    return ((a)**(1/2))%1==0 and a>=0
+    return a>=0 and type((a)**(1/2))==type(1)
 print(main(16))
